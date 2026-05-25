@@ -1,5 +1,5 @@
 # Logic-Deducing-Game
-This game uses a secret number that the user must guess, and gives hints to whether you have the right number in the right position, wrong position, or you just have the wrong number.
+#This game uses a secret number that the user must guess, and gives hints to whether you have the right number in the right position, wrong position, or you just have the wrong number.
 
 def bagels(secret_number):
     import random
@@ -60,5 +60,3 @@ def bagels(secret_number):
                         guess = 1
                         return  
 print(bagels('701'))
-
-
