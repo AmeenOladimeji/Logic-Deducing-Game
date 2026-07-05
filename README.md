@@ -6,6 +6,9 @@ def bagels(secret_number):
     guess = 1
     
     
+    def bagels(secret_number):
+    import random
+    guess = 1
     print(f'Bagels, a deductive logic game.\nI am thinking of a 3-digit number. Try to guess what it is.\nHere are some clues:\nWhen I say:    That means:')
     print('  Pico         One digit is correct but in the wrong position.\n  Fermi        One digit is correct and in the right position.\n  Bagels       No digit is correct.\nI have thought up a number.\n You have 10 guesses to get it.')
 
@@ -60,4 +63,5 @@ def bagels(secret_number):
                         guess = 1
                         return  
 print(bagels('701'))
+
 
