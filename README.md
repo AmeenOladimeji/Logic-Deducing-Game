@@ -6,7 +6,7 @@ def bagels(secret_number):
     guess = 1
     
     
-    print(f'Bagels, a deductive logic game.\nBy Al Sweigart al@inventwithpython.com\nI am thinking of a 3-digit number. Try to guess what it is.\nHere are some clues:\nWhen I say:    That means:')
+    print(f'Bagels, a deductive logic game.\nI am thinking of a 3-digit number. Try to guess what it is.\nHere are some clues:\nWhen I say:    That means:')
     print('  Pico         One digit is correct but in the wrong position.\n  Fermi        One digit is correct and in the right position.\n  Bagels       No digit is correct.\nI have thought up a number.\n You have 10 guesses to get it.')
 
     while guess <= 10:
